@@ -1,0 +1,6 @@
+C:\Users\zida\Desktop\Assignment01\Assignment01\bin\Assignment01.dll.config
+C:\Users\zida\Desktop\Assignment01\Assignment01\bin\Assignment01.dll
+C:\Users\zida\Desktop\Assignment01\Assignment01\bin\Assignment01.pdb
+C:\Users\zida\Desktop\Assignment01\Assignment01\obj\Debug\Assignment01.csprojResolveAssemblyReference.cache
+C:\Users\zida\Desktop\Assignment01\Assignment01\obj\Debug\Assignment01.dll
+C:\Users\zida\Desktop\Assignment01\Assignment01\obj\Debug\Assignment01.pdb

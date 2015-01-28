@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{97F0BE98-1077-4146-8F91-2D5C21129842}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assignment01</RootNamespace>
+    <AssemblyName>Assignment01</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutme.html" />
+    <Content Include="assets\images\aboutme.svg" />
+    <Content Include="assets\images\AndroidHealth-tn.png" />
+    <Content Include="assets\images\AndroidHealth.png" />
+    <Content Include="assets\images\contactme.svg" />
+    <Content Include="assets\images\github.svg" />
+    <Content Include="assets\images\home.svg" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\MovieTicket-tn.JPG" />
+    <Content Include="assets\images\MovieTicket.JPG" />
+    <Content Include="assets\images\personalPic.jpg" />
+    <Content Include="assets\images\project.svg" />
+    <Content Include="assets\images\service.svg" />
+    <Content Include="assets\images\texture.jpg" />
+    <Content Include="assets\images\TicketSys-tn.jpg" />
+    <Content Include="assets\images\TicketSys.jpg" />
+    <Content Include="assets\images\webicon-facebook-m.png" />
+    <Content Include="assets\images\webicon-facebook-s.png" />
+    <Content Include="assets\images\webicon-facebook.png" />
+    <Content Include="assets\images\webicon-linkedin-m.png" />
+    <Content Include="assets\images\webicon-linkedin-s.png" />
+    <Content Include="assets\images\webicon-linkedin.png" />
+    <Content Include="assets\images\webicon-twitter-m.png" />
+    <Content Include="assets\images\webicon-twitter-s.png" />
+    <Content Include="assets\images\webicon-twitter.png" />
+    <Content Include="assets\images\webicon-youtube-m.png" />
+    <Content Include="assets\images\webicon-youtube-s.png" />
+    <Content Include="assets\images\webicon-youtube.png" />
+    <Content Include="assets\sliderengine\amazingslider-1.css" />
+    <Content Include="assets\sliderengine\amazingslider.js" />
+    <Content Include="assets\sliderengine\arrows-36-80-0.png" />
+    <Content Include="assets\sliderengine\bottomshadow-110-95-0.png" />
+    <Content Include="assets\sliderengine\bullet-24-24-1.png" />
+    <Content Include="assets\sliderengine\carouselarrows-32-32-0.png" />
+    <Content Include="assets\sliderengine\html5boxplayer.swf" />
+    <Content Include="assets\sliderengine\html5boxplayer_fullscreen.png" />
+    <Content Include="assets\sliderengine\html5boxplayer_hd.png" />
+    <Content Include="assets\sliderengine\html5boxplayer_playpause.png" />
+    <Content Include="assets\sliderengine\html5boxplayer_playvideo.png" />
+    <Content Include="assets\sliderengine\html5boxplayer_volume.png" />
+    <Content Include="assets\sliderengine\initslider-2.js" />
+    <Content Include="assets\sliderengine\initslider-1.js" />
+    <Content Include="assets\sliderengine\jquery.js" />
+    <Content Include="assets\sliderengine\lightbox-close.png" />
+    <Content Include="assets\sliderengine\lightbox-loading.gif" />
+    <Content Include="assets\sliderengine\lightbox-navnext.png" />
+    <Content Include="assets\sliderengine\lightbox-navprev.png" />
+    <Content Include="assets\sliderengine\lightbox-next.png" />
+    <Content Include="assets\sliderengine\lightbox-playvideo.png" />
+    <Content Include="assets\sliderengine\lightbox-prev.png" />
+    <Content Include="assets\sliderengine\navarrows-28-28-0.png" />
+    <Content Include="assets\sliderengine\navbuttonbgimage-28-28-0.png" />
+    <Content Include="assets\sliderengine\navplaypause-28-28-0.png" />
+    <Content Include="assets\sliderengine\play-32-32-0.png" />
+    <Content Include="assets\sliderengine\playvideo-64-64-0.png" />
+    <Content Include="assets\sliderengine\previewarrow-16-8-0.png" />
+    <Content Include="contactme.html" />
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\foundation.css" />
+    <Content Include="CSS\normalize.css" />
+    <Content Include="CSS\app.css" />
+    <Content Include="humans.txt" />
+    <Content Include="index.html" />
+    <Content Include="robots.txt" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\foundation\fastclick.js" />
+    <Content Include="Scripts\foundation\foundation.abide.js" />
+    <Content Include="Scripts\foundation\foundation.accordion.js" />
+    <Content Include="Scripts\foundation\foundation.alert.js" />
+    <Content Include="Scripts\foundation\foundation.clearing.js" />
+    <Content Include="Scripts\foundation\foundation.dropdown.js" />
+    <Content Include="Scripts\foundation\foundation.equalizer.js" />
+    <Content Include="Scripts\foundation\foundation.interchange.js" />
+    <Content Include="Scripts\foundation\foundation.joyride.js" />
+    <Content Include="Scripts\foundation\foundation.js" />
+    <Content Include="Scripts\foundation\foundation.magellan.js" />
+    <Content Include="Scripts\foundation\foundation.offcanvas.js" />
+    <Content Include="Scripts\foundation\foundation.orbit.js" />
+    <Content Include="Scripts\foundation\foundation.reveal.js" />
+    <Content Include="Scripts\foundation\foundation.slider.js" />
+    <Content Include="Scripts\foundation\foundation.tab.js" />
+    <Content Include="Scripts\foundation\foundation.tooltip.js" />
+    <Content Include="Scripts\foundation\foundation.topbar.js" />
+    <Content Include="Scripts\foundation\jquery.cookie.js" />
+    <None Include="Scripts\jquery-2.1.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.3.js" />
+    <Content Include="Scripts\jquery-2.1.3.min.js" />
+    <Content Include="Scripts\Libs\foundation.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-2.1.3.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\audios\" />
+    <Folder Include="assets\fonts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3377</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1696/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

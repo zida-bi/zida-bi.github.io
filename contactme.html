@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comp308-Assignment01</title>
+    <link href="CSS/normalize.css" rel="stylesheet" />
+    <link href="assets/sliderengine/amazingslider-1.css" rel="stylesheet" />
+    <link href="CSS/foundation.css" rel="stylesheet" />
+    <link href="CSS/app.css" rel="stylesheet" />
+</head>
+<body onload="init();">
+    <div class="off-canvas-wrap show-for-medium-down" data-offcanvas>
+        <div class="inner-wrap">
+            <nav class="tab-bar">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+                </section>
+
+                <section class="middle tab-bar-section">
+                    <h1 class="title">Zida's Home</h1>
+                </section>
+            </nav>
+
+            <aside class="left-off-canvas-menu">
+                <ul class="off-canvas-list">
+                    <li><img id="logo" src="assets/images/logo.png" /></li>
+                    <li><label>What you can do with me:</label></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="https://github.com/zida-bi">GitHub</a></li>
+                    <li><a href="contactme.html" id="small-current">Contact Me</a></li>
+                </ul>
+            </aside>
+
+            <section class="main-section">
+                <!-- content goes here -->
+                <div class="row">
+                    <div class="small-12 columns">
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <ul class="breadcrumbs">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="current"><a href="contactme.html">Contact Me</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h1>Trying to Build Contact With Me?</h1>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h3>Contact Info</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <center>
+                            <ul id="contactInfo">
+                                <li>Email: zida_bi@hotmail.com</li>
+                                <li>Work Address: 35 Fake Road West.</li>
+                                <li>Cellphone: 647-928-9566</li>
+                            </ul>
+                        </center>
+                    </div>
+                </div>
+                <hr />
+
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h3>Follow Me on Social Networks</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <center>
+                            <a href="https://www.facebook.com/zida.bi">
+                                <img class="show-for-medium-only" src="assets/images/webicon-facebook-m.png" />
+                                <img class="show-for-small-down" src="assets/images/webicon-facebook-s.png" />
+                            </a>
+                            <a href="https://twitter.com/zida_bi">
+                                <img class="show-for-medium-only" src="assets/images/webicon-twitter-m.png" />
+                                <img class="show-for-small-down" src="assets/images/webicon-twitter-s.png" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/zidabi">
+                                <img class="show-for-medium-only" src="assets/images/webicon-linkedin-m.png" />
+                                <img class="show-for-small-down" src="assets/images/webicon-linkedin-s.png" />
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC4V0nFvNl_xX7KeSqRlKEJQ/feed">
+                                <img class="show-for-medium-only" src="assets/images/webicon-youtube-m.png" />
+                                <img class="show-for-small-down" src="assets/images/webicon-youtube-s.png" />
+                            </a>
+                        </center>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+                    </div>
+                </div>
+            </section>
+            <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+
+    <div class="row show-for-large-up">
+        <div class="large-9 columns">
+            <div class="row">
+                <div class="large-12 columns">
+                    <div class="icon-bar six-up">
+                        <a href="index.html" class="item">
+                            <img src="assets/images/home.svg" />
+                            <label>Home</label>
+                        </a>
+
+                        <a href="aboutme.html" class="item">
+                            <img src="assets/images/aboutme.svg" />
+                            <label>About Me</label>
+                        </a>
+
+                        <a href="projects.html" class="item">
+                            <img src="assets/images/project.svg" />
+                            <label>Projects</label>
+                        </a>
+
+                        <a href="services.html" class="item">
+                            <img src="assets/images/service.svg" />
+                            <label>Services</label>
+                        </a>
+
+                        <a href="https://github.com/zida-bi" class="item">
+                            <img src="assets/images/github.svg" />
+                            <label>GitHub</label>
+                        </a>
+
+                        <a href="contactme.html" class="item" id="currentPg">
+                            <img src="assets/images/contactme.svg" />
+                            <label>Contact Me</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <ul class="breadcrumbs">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="contactme.html">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>           
+        </div>
+        <div class="large-3 columns">
+            <div class="row">
+                <div class="small-12 large-12 columns">
+                    <img id="logo" src="assets/images/logo.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row show-for-large-up">
+        <div class="large-12 columns">
+            <h1>Trying to Build Contact With Me?</h1>
+        </div>
+    </div>
+
+    <hr class="show-for-large-up" />
+
+    <div class="row show-for-large-up">
+        <div class="large-12 columns">
+            <h3>Contact Info</h3>
+        </div>
+    </div>
+    <div class="row show-for-large-up">
+        <div class="large-12 columns">
+            <center>
+                <ul id="contactInfo">
+                    <li>Email: zida_bi@hotmail.com</li>
+                    <li>Work Address: 35 Fake Road West.</li>
+                    <li>Cellphone: 647-928-9566</li>
+                </ul>
+            </center>
+        </div>
+    </div>
+    <hr class="show-for-large-up" />
+
+    <div class="row show-for-large-up">
+        <div class="large-12 columns">
+            <h3>Follow Me on Social Networks</h3>
+        </div>
+    </div>
+    <div class="row show-for-large-up">
+        <div class="large-12 columns">
+            <center>
+                <a href="https://www.facebook.com/zida.bi">
+                    <img src="assets/images/webicon-facebook.png" />
+                </a>
+                <a href="https://twitter.com/zida_bi">
+                    <img src="assets/images/webicon-twitter.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/zidabi">
+                    <img src="assets/images/webicon-linkedin.png" />
+                </a>
+                <a href="https://www.youtube.com/channel/UC4V0nFvNl_xX7KeSqRlKEJQ/feed">
+                    <img src="assets/images/webicon-youtube.png" />
+                </a>
+            </center>
+        </div>
+    </div>
+    <hr class="show-for-large-up" />
+
+
+    <div class="row show-for-large-up">
+        <div class="large-12 columns">
+            <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+        </div>
+    </div>
+
+
+
+    <script src="assets/sliderengine/jquery.js"></script>
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/Libs/foundation.min.js"></script>
+    <script src="assets/sliderengine/amazingslider.js"></script>
+    <script src="assets/sliderengine/initslider-1.js"></script>
+    <script src="assets/sliderengine/initslider-2.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>

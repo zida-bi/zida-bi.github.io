@@ -1,0 +1,100 @@
+﻿body {
+    background-size:auto auto;
+    background-image: url('../assets/images/texture.jpg');
+}
+
+#currentPg{
+    background-color:#2081ca;
+}
+
+#small-current{
+    background-color: #1e1e1e;
+}
+.item{
+    border-radius:13px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.icon-bar{
+    background-color:#5BA7DE;
+    border-radius:13px;
+}
+
+#workMore{
+    font-size:medium;
+    text-align:center;
+    background-color:#5BA7DE;
+    width:89%;
+}
+
+#drop{
+    width:auto;
+}
+
+#drpBtn{
+    background-color:#5BA7DE;
+    text-align:center;
+    font-size:medium;
+}
+
+h6{
+    font-size:xx-small;
+    text-align:center;
+}
+
+#amazingslider-wrapper-1 {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0px auto 56px;
+}
+
+#amazingslider-1 {
+    display: block;
+    position: relative;
+    margin: auto auto;
+}
+
+.amazingslider-slides{
+    display:none;
+}
+.amazingslider-thumbnails{
+    display:none;
+}
+
+#m-morework
+{
+    width:30%;
+}
+
+#small-down-morework{
+    width:30%;
+    font-size:60%;
+}
+
+#p-home{
+    text-align:center;
+}
+
+.breadcrumbs{
+    background-color:#FFE5D6;
+}
+
+#personalPic{
+    height:50%;
+    width:50%;
+}
+#contactInfo{
+    list-style-type:none;
+}
+
+#company{
+    font-weight:bold;
+}

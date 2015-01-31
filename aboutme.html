@@ -1,15 +1,25 @@
 ﻿<!DOCTYPE html>
+<!--File Name: aboutme.html
+    Author: Zida Bi, 300716389
+    Website: Zida's Home
+    File Description: about me page contain my description
+-->
 <html lang="en">
 <head>
+    <!--head-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comp308-Assignment01</title>
+    <!--css files-->
     <link href="CSS/normalize.css" rel="stylesheet" />
     <link href="assets/sliderengine/amazingslider-1.css" rel="stylesheet" />
     <link href="CSS/foundation.css" rel="stylesheet" />
     <link href="CSS/app.css" rel="stylesheet" />
 </head>
 <body onload="init();">
+    <!--body-->
+
+    <!--off canvas nav bar-->
     <div class="off-canvas-wrap show-for-medium-down" data-offcanvas>
         <div class="inner-wrap">
             <nav class="tab-bar">
@@ -17,11 +27,13 @@
                     <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
                 </section>
 
+                <!--tab bar title-->
                 <section class="middle tab-bar-section">
                     <h1 class="title">Zida's Home</h1>
                 </section>
             </nav>
 
+            <!--tab bar items-->
             <aside class="left-off-canvas-menu">
                 <ul class="off-canvas-list">
                     <li><img id="logo" src="assets/images/logo.png" /></li>
@@ -35,8 +47,10 @@
                 </ul>
             </aside>
 
+            <!--main body of tab bar, medium down sizes-->
             <section class="main-section">
                 <!-- content goes here -->
+                <!-- bread nav bar-->
                 <div class="row">
                     <div class="small-12 columns">
                         <div class="row">
@@ -49,13 +63,14 @@
                         </div>
                     </div>
                 </div>
-                
+                <!--page title-->
                 <div class="row">
                     <div class="small-12 columns">
                         <h1>Zida's Profile</h1>
                     </div>
                 </div>
 
+                <!--personal picture for about me page-->
                 <div class="row">
                     <div class="small-12 columns">
                         <center>
@@ -64,11 +79,13 @@
                     </div>
                 </div>
                 <hr />
+                <!--about me section header-->
                 <div class="row">
                     <div class="small-12 columns">
                         <h2>About Me</h2>
                     </div>
                 </div>
+                <!--my personal description-->
                 <div class="row">
                     <div class="small-12 columns">
                         <p>Hello! My name is Zida Bi. I'm studying Software Engineering Technology in Centennial College. This is my 5th semester and I will gradute on December 2015.</p>
@@ -77,11 +94,13 @@
                     </div>
                 </div>
                 <hr />
+                <!--work exp section header-->
                 <div class="row">
                     <div class="small-12 columns">
                         <h2>Co-op Work Experiences</h2>
                     </div>
                 </div>
+                <!--coop exp section body-->
                 <div class="row">
                     <div class="small-6 columns" id="company">Royal Bank of Canada</div>
                     <div class="small-6 columns">Winter&Fall 2014</div>
@@ -97,7 +116,7 @@
                     </div>
                 </div>
                 <hr />
-
+                <!--copyright statement-->
                 <div class="row">
                     <div class="small-12 columns">
                         <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
@@ -108,9 +127,10 @@
 
         </div>
     </div>
-
+    <!--start of main body for large up size-->
     <div class="row show-for-large-up">
         <div class="large-9 columns">
+            <!--icon bar-->
             <div class="row">
                 <div class="large-12 columns">
                     <div class="icon-bar six-up">
@@ -146,6 +166,7 @@
                     </div>
                 </div>
             </div>
+            <!-- bread nav bar-->
             <div class="row">
                 <div class="large-12 columns">
                     <ul class="breadcrumbs">
@@ -155,6 +176,7 @@
                 </div>
             </div>
         </div>
+        <!--logo-->
         <div class="large-3 columns">
             <div class="row">
                 <div class="small-12 large-12 columns">
@@ -163,14 +185,14 @@
             </div>
         </div>
     </div>
-
+    <!--about me page title-->
     <div class="row show-for-large-up">
         <div class="large-12 columns">
             <h1>Zida's Profile</h1>
         </div>
     </div>
     <hr class="show-for-large-up" />  
-    
+    <!-- about me section header-->
     <div class="row show-for-large-up">
         <div class="large-7 columns">
             <div class="row">
@@ -178,6 +200,7 @@
                     <h2>About Me</h2>
                 </div>
             </div>
+            <!--my personal description-->
             <div class="row">
                 <div class="large-12 columns">
                     <p>Hello! My name is Zida Bi. I'm studying Software Engineering Technology in Centennial College. This is my 5th semester and I will gradute on December 2015.</p>
@@ -191,11 +214,13 @@
         </div>
     </div>
     <hr class="show-for-large-up" />
+    <!--coop work exp section header-->
     <div class="row show-for-large-up">
         <div class="laarge-12 columns">
             <h2>Co-op Work Experiences</h2>
         </div>
     </div>
+    <!--coop exp body-->
     <div class="row show-for-large-up">
         <div class="large-8 columns" id="company">Royal Bank of Canada</div>
         <div class="large-4 columns">Winter&Fall 2014</div>
@@ -211,7 +236,7 @@
         </div>
     </div>
     <hr class="show-for-large-up" />
-
+    <!--copy right statement-->
     <div class="row show-for-large-up">
         <div class="large-12 columns">
             <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
@@ -219,7 +244,7 @@
     </div>
 
 
-
+    <!--javca scripts-->
     <script src="assets/sliderengine/jquery.js"></script>
     <script src="Scripts/jquery-2.1.3.min.js"></script>
     <script src="Scripts/Libs/foundation.min.js"></script>

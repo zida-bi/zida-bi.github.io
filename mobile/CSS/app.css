@@ -1,0 +1,88 @@
+﻿/*
+    File name: app.css
+    Author: Zida Bi
+    Website name: Zida's Home
+    Description: css document that decorating the html page 
+*/
+
+/*body*/
+body {
+    background-image: url('../assets/images/texture.jpg');
+}
+
+#home, header, #aboutme, #contactme, #projects, #services {
+    background-image: url('../assets/images/texture.jpg');
+}
+
+/*logo picture, home page image buttons images*/
+#logo, #servicesImg, #projectsImg{
+    max-height: 70px;
+    padding:0 0 0 0;
+    max-width: 100%;
+}
+
+/*home page image buttons images*/
+#servicesImg, #projectsImg{
+    height: 100%;
+}
+
+/*personal picture at about me page*/
+#photo{
+    max-width: 80%;
+}
+
+/*page titles in each page, below of the nav bar */
+#pagetitle{
+    font-size: xx-large;
+    margin:0;
+    font-family: 'Coming Soon', cursive;
+}
+
+/*subtitles in each pages blow of the main titles*/
+#subtitle{
+    font-family: 'Indie Flower', cursive;
+}
+
+/*website name, beside the logo*/
+#welcome{
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:absolute;
+    margin-left: 26px;
+    margin-top: 25px;
+}
+
+/*Slider outer container CSS*/
+#amazingslider-wrapper-1{
+    display:block;
+    position:relative;
+    max-width:280px;
+    margin:0px auto 0px;
+}
+
+/*Slider inner container CSS*/
+#amazingslider-1{
+    display:block;
+    position:relative;
+    margin:0 auto;
+}
+
+/*Slider images*/
+.amazingslider-slides{
+    display:none;
+}
+
+/*Slider thumbnails*/
+.amazingslider-thumbnails{
+    display:none;
+}
+
+/*Full site nav*/
+#fullsite{
+    text-align:center;
+}
+
+/*previous work images*/
+#movieTkt, #hlpDesk, #mobileHealth{
+    max-width:100%;
+}

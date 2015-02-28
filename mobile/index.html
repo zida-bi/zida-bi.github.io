@@ -1,0 +1,396 @@
+﻿<!--
+    File name: index.html
+    Author: Zida Bi
+    Website: Zida's Home
+    Description: mobile version of personal profile site uses jquary mobile technique and amazing slider plugin, which includes
+                home page, contact me page, about me page, services page and projects page
+     -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Assignment02</title>
+
+    <!--css section-->
+    <!--jquary mobile css file-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+    <!--theme roller css-->
+    <link rel="stylesheet" href="CSS/themes/zidaTheme.min.css" />
+    <link rel="stylesheet" href="CSS/themes/jquery.mobile.icons.min.css" />
+    <!--amazing slider css file-->
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <!--web font section-->
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+    <!--personal editing css file-->
+    <link href="CSS/app.css" rel="stylesheet" />
+
+</head>
+<body data-theme="a">
+    <!--home page wrapper-->
+    <div data-role="page" id="home">
+
+        <!--page header section-->
+        <header data-role="header">
+            <!--logo(img button nav to home page) and website name-->
+            <div><a href="#home"><img src="assets/images/logo.png" id="logo" /></a><span id="welcome">Zida's Home</span></div>
+            <!-- nav bar include home, aboume and contactme page link-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" class="ui-btn-active ui-state-persist" data-transition="flip">Home</a></li>
+                    <li><a href="#aboutme" data-icon="info" data-transition="flip">About Me</a></li>
+                    <li><a href="#contactme" data-icon="search" data-transition="flip">Contact Me</a></li>
+                </ul>
+            </div>
+            <!--image button nav bar navigate to the project and services pages-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#projects" data-transition="flip"><img src="assets/images/projects.png" id="projectsImg" /></a></li>
+                    <li><a href="#services" data-transition="flip"><img src="assets/images/services.png" id="servicesImg" /></a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--body section-->
+        <section data-role="content">
+            <br />
+            <!--Slider section: amazing slider-->
+            <div id="amazingslider-wrapper-1">
+                <div id="amazingslider-1">
+                    <ul class="amazingslider-slides">
+                        <li>
+                            <a href="#projects"><img src="assets/images/AndroidHealth.png" /></a>
+                        </li>
+                        <li>
+                            <a href="#projects"><img src="assets/images/MovieTicket.JPG" /></a>
+                        </li>
+                        <li>
+                            <a href="#projects"><img src="assets/images/TicketSys.jpg" /></a>
+                        </li>
+                    </ul>
+                    <ul class="amazingslider-thumbnails">
+                        <li><img src="assets/images/AndroidHealth-tn.png" /></li>
+                        <li><img src="assets/images/MovieTicket-tn.JPG" /></li>
+                        <li><img src="assets/images/TicketSys-tn.jpg" /></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <!--footer section include the copyright stmt and link to the correspond page of PC version webpage -->
+        <footer data-role="footer" class="ui-footer-fixed">
+            <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+            <div id="fullsite"><a href="http://zida-bi.github.io/index.html">Full Site</a></div>
+        </footer>
+
+    </div>
+
+    <!--About me page wrapper-->
+    <div data-role="page" id="aboutme">
+
+        <!--page header section-->
+        <header data-role="header">
+            <!--logo(img button nav to home page) and website name-->
+            <div><a href="#home"><img src="assets/images/logo.png" id="logo" /></a><span id="welcome">Zida's Home</span></div>
+            <!-- nav bar include home, aboume and contactme page link-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="flip">Home</a></li>
+                    <li><a href="#aboutme" class="ui-btn-active ui-state-persist" data-icon="info" data-transition="flip">About Me</a></li>
+                    <li><a href="#contactme" data-icon="search" data-transition="flip">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--body section-->
+        <section data-role="content">
+            <!--page title-->
+            <center>
+                <h1 id="pagetitle">Zida's Profile</h1>
+            </center>
+            <!--personal picture-->
+            <div>
+                <center>
+                    <img src="assets/images/personalPic.jpg" id="photo" />
+                </center>
+            </div>
+            <hr />
+
+            <!--subsection of body-->
+            <!--title for the subsection: personal tagline-->
+            <center>
+                <h1 id="subtitle">Software Engineers are Changing the World!</h1>
+            </center>
+            <!--content for the subsection: personal statement -->
+            <center>
+                <p>&bull; C# and Java Development</p>
+                <p>&bull; Web Development</p>
+                <p>&bull; Automation Testing</p>
+            </center>
+            <hr />
+
+            <!--subsection of the body-->
+            <!--subtitle: personal bio section-->
+            <center>
+                <h1 id="subtitle">About Me</h1>
+            </center>
+            <!--personal bio-->
+            <p>Hello! My name is Zida. I'm a student of Software Engineering Technology.</p>
+            <p>I love my program which contains lots of interesting knowledge.</p>
+            <p>Software engineers will change the world!</p>
+            <hr />
+
+            <!--subsection of the body: experiences-->
+            <center>
+                <h1 id="subtitle">Co-op Experience</h1>
+                <h4>Royal Bank of Canada</h4>
+            </center>
+            <!--subsection content: experience detail-->
+            <ul>
+                <li>Performance testing for internal softwares.</li>
+                <li>Debug test scripts.</li>
+                <li>Approve team invoices from external suppliers.</li>
+                <li>Maintain department equipment record.</li>
+            </ul>
+            <hr />
+
+            <!--back button nav to the home page-->
+            <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Go Back</a>
+        </section>
+
+        <!--footer section include the copyright stmt and link to the desktop page with correspond page-->
+        <footer data-role="footer">
+            <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+            <div id="fullsite"><a href="http://zida-bi.github.io/aboutme.html">Full Site</a></div>
+        </footer>
+
+    </div>
+
+    <!--Contact me page wrapper-->
+    <div data-role="page" id="contactme">
+
+        <!--page header section-->
+        <header data-role="header">
+            <!--logo(img button nav to home page) and website name-->
+            <div><a href="#home"><img src="assets/images/logo.png" id="logo" /></a><span id="welcome">Zida's Home</span></div>
+            <!-- nav bar include home, aboume and contactme page link-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="flip">Back to Home</a></li>
+                    <li><a href="#aboutme" data-icon="info" data-transition="flip">About Me</a></li>
+                    <li><a href="#contactme" class="ui-btn-active ui-state-persist" data-icon="search" data-transition="flip">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--body section-->
+        <section data-role="content">
+
+            <!--page title for contact me page-->
+            <center>
+                <h1 id="pagetitle">Trying to Build Networking With Me?</h1>
+            </center>
+            <hr />
+
+            <!--subsection: my contact infor-->
+            <!--subsection title-->
+            <center>
+                <h1 id="subtitle">Contact Info</h1>
+            </center>
+            <!--subsection content-->
+            <ul>
+                <li>Cellphone: 647-928-9566</li>
+                <li>Email: zida_bi@hotmail.com</li>
+                <li>Address: 35 Fake Road West. Scarborough. ON.</li>
+            </ul>
+            <hr />
+
+            <!--subsection: social network links with image buttons-->
+            <center>
+                <h1 id="subtitle">Follow me on Social Networks:</h1>
+                <a href="https://www.facebook.com/zida.bi">
+                    <img src="assets/images/webicon-facebook.png" />
+                </a>
+                <a href="https://twitter.com/zida_bi">
+                    <img src="assets/images/webicon-twitter.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/zidabi">
+                    <img src="assets/images/webicon-linkedin.png" />
+                </a>
+                <a href="https://www.youtube.com/channel/UC4V0nFvNl_xX7KeSqRlKEJQ/feed">
+                    <img src="assets/images/webicon-youtube.png" />
+                </a>
+            </center>
+            <hr />
+
+            <!--back button nav to the home page-->
+            <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Go Back</a>
+
+        </section>
+
+        <!-- footer section include the copyright stmt and link to the correspond page of the pc website-->
+        <footer data-role="footer">
+            <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+            <div id="fullsite"><a href="http://zida-bi.github.io/contactme.html">Full Site</a></div>
+        </footer>
+
+    </div>
+
+    <!--projects page wrapper-->
+    <div data-role="page" id="projects">
+
+        <!--header section-->
+        <header data-role="header">
+            <!--logo img button that lin to home page and website name-->
+            <div><a href="#home"><img src="assets/images/logo.png" id="logo" /></a><span id="welcome">Zida's Home</span></div>
+            <!--nav bar include buttons of home page, contact me page and about me page-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="flip">Back to Home</a></li>
+                    <li><a href="#aboutme" data-icon="info" data-transition="flip">About Me</a></li>
+                    <li><a href="#contactme" data-icon="search" data-transition="flip">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--body section-->
+        <section data-role="content">
+
+            <!--page title of my project page-->
+            <center>
+                <h1 id="pagetitle">My Projects</h1>
+            </center>
+            <hr />
+
+            <!--subsection: first project-->
+            <!--subsection title-->
+            <center><h1 id="subtitle">Movie Ticket System</h1></center>
+            <!--juqary moble collapsible for the first project-->
+            <div data-role="collapsible">
+                <h1><img src="assets/images/MovieTicket.JPG" id="movieTkt"/></h1>
+                <p>A movie ticket booking system project which using Java applet and MySQL technology.</p>
+            </div>
+            <hr />
+
+            <!--subsection: second project-->
+            <!--subsection title-->
+            <center><h1 id="subtitle">Enterprise Helpdesk System</h1></center>
+            <!--juqary moble collapsible for the first project-->
+            <div data-role="collapsible">
+                <h1><img src="assets/images/TicketSys.jpg" id="hlpDesk" /></h1>
+                <p>This ticketing system will enable people putting help desk tickets for their demaged machies.</p>
+            </div>
+            <hr />
+
+            <!--subsection: third project-->
+            <!--subsection title-->
+            <center><h1 id="subtitle">Mobile Health Monitoring System</h1></center>
+            <!--juqary moble collapsible for the first project-->
+            <div data-role="collapsible">
+                <h1><img src="assets/images/AndroidHealth.png" id="mobileHealth" /></h1>
+                <p>This mobile application could help users tracking their body status by entering required basic informations.</p>
+            </div>
+            <hr />
+
+            <!--back button that nav to the home page-->
+            <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Go Back</a>
+
+        </section>
+
+        <!--footer section include copyright stmt and link to the correspond page of personal profile site-->
+        <footer data-role="footer">
+            <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+            <div id="fullsite"><a href="http://zida-bi.github.io/projects.html">Full Site</a></div>
+        </footer>
+
+    </div>
+
+    <!--services page wrapper-->
+    <div data-role="page" id="services">
+
+        <!--header section-->
+        <header data-role="header">
+            <!--logo that could navigate to the home page and website name-->
+            <div><a href="#home"><img src="assets/images/logo.png" id="logo" /></a><span id="welcome">Zida's Home</span></div>
+            <!--nav bar include buttons of home, contact me and about me pages-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="flip">Home</a></li>
+                    <li><a href="#aboutme" data-icon="info" data-transition="flip">About Me</a></li>
+                    <li><a href="#contactme" data-icon="search" data-transition="flip">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--body section-->
+        <section data-role="content">
+
+            <!--section title-->
+            <center>
+                <h1 id="pagetitle">My Services</h1>
+            </center>
+            <hr />
+
+            <!--subsection: first service-->
+            <!--subsection title-->
+            <center>
+                <h1 id="subtitle">C# and Java Development</h1>
+            </center>
+            <!--subsection content-->
+            <center>
+                <p>Apply my C# and Java development skills with connection of database knowledge to provide real working output.</p>
+            </center>
+            <hr />
+
+            <!--subsection: second service-->
+            <!--subsection title-->
+            <center>
+                <h1 id="subtitle">Web Development</h1>
+            </center>
+            <!--subsection content-->
+            <center>
+                <p>Apply my web development skills regarding on emerging technologies to assist companies creating and implementing websites.</p>
+            </center>
+            <hr />
+
+            <!--subsection: second service-->
+            <!--subsection title-->
+            <center>
+                <h1 id="subtitle">Automation Testing</h1>
+            </center>
+            <!--subsection content-->
+            <center>
+                <p>Apply my co-op experience as a Technical System Analyst to assure company deliver error free software products.</p>
+            </center>
+            <hr />
+
+            <!--back button to the home page-->
+            <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Go Back</a>
+
+        </section>
+
+        <!-- footer section include copyright stmt and link to the correspond page of the personal profile page-->
+        <footer data-role="footer">
+            <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+            <div id="fullsite"><a href="http://zida-bi.github.io/services.html">Full Site</a></div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!--javascripts section-->
+    <!--jquary mobile js files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+    <!--amazing slider js files-->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <script src="sliderengine/initslider-1.js"></script>
+    <!--personal js file-->
+    <script src="Scripts/app.js"></script>
+</body>
+</html>
